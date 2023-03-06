@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* chiều rộng là 80% kích cỡ chiều rộng màn hình */
+    background-color: #14182a;
+    font-size: 14px;
+}
+
+
+/* Header */
+
+.header {
+    background-color: #1b2039;
+    height: 60px;
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    align-items: center;
+}
+
+.header .header-left {
+    color: #ffffff;
+    font-size: 24px;
+    flex: 1;
+}
+
+
+/* header right */
+
+.header .header-right {
+    text-align: right;
+    flex: 1;
+    color: #ffffff;
+}
+
+.header .header-right .color-aqua {
+    color: #3bc8e7;
+}
+
+
+/* Content */
+
+.content {
+    width: 80vw;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.content-item {
+    margin-bottom: 20px;
+}
+
+.content .content-item .content-list {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content .content-item h3 {
+    color: #3bc8e7;
+    margin-bottom: 20px;
+}
+
+.content .content-item .content-item-music {
+    width: 240px;
+}
+
+.content .content-item .content-item-music img {
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+}
+
+.content .content-item .content-item-music .song {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content .content-item .content-item-music .singer {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* paging */
+
+.content .paging {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.content .paging ul {
+    list-style: none;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: blueviolet;
+    height: 200px;
+}
